@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flex-container {
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(83, 75, 75);
+    border-radius: 20px;
+}
+
+img {
+    position: absolute;
+    right: 30%;
+    transition: 0.8s;
+    opacity: 0.1;
+}
+
+img:hover {
+    height: 650px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    cursor: default;
+}
+
+h1 {
+    font-family: 'Ewert', cursive;
+    color: rgb(250, 239, 239);
+    margin: 20px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+h1:hover {
+    font-size: 4.3rem;
+    color: #000;
+    cursor: pointer;
+}
+
+p {
+    margin: 20px;
+    font-size: 2rem
+}
