@@ -32,12 +32,13 @@ img {
     height: 60vh;
     transition: 0.8s;
     opacity: 0.1;
+    transform: translate(-100%, 58%) translate(100%, -50%);
 }
 
 img:hover {
-    height: 650px;
     cursor: pointer;
     opacity: 1;
+    transform: translate(-100%, 58%) translate(100%, -50%) scale(1.77);
 }
 
 .flex-items {
